@@ -3,7 +3,6 @@
 int main(int argc, char *argv[]) {
     int i;
 
-    // Corrected the format specifier for printing the program name
     printf("\nProgram name: %s", argv[0]);
 
     if (argc < 2) {
@@ -15,6 +14,6 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    printf("\n");  // Add a newline for better output formatting
-    return 0;  // Return 0 to indicate successful completion
+    printf("\n");
+    return 0; 
 }
